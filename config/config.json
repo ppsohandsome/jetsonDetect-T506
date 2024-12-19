@@ -1,0 +1,74 @@
+{
+    "KafkaConfig": {
+        "enable": true,
+        "ip": "192.168.1.13",
+        "port": 9092,
+	"topic":"idtcz_3",
+	"user": "admin",
+        "password": "123123"
+    },
+    "CamereConfig": {
+        "cameraList": [
+            
+		{
+                "camID": "41",
+                "rtspPath": "rtsp://admin:abcd1234@192.168.1.107:554/h264/ch1/main/av_stream",
+                "width": 1920,
+                "height": 1080
+            },
+	    
+	    {
+                "camID": "55",
+                "rtspPath": "rtsp://admin:abcd1234@192.168.1.119:554/h264/ch1/main/av_stream",
+                "width": 1920,
+                "height": 1080
+            },
+ {
+                "camID": "68",
+                "rtspPath": "rtsp://admin:abcd1234@192.168.1.132:554/h264/ch1/main/av_stream",
+                "width": 1920,
+                "height": 1080
+            },
+ {
+                "camID": "40",
+                "rtspPath": "rtsp://admin:abcd1234@192.168.1.104:554/h264/ch1/main/av_stream",
+                "width": 1920,
+                "height": 1080
+            },
+ {
+                "camID": "58",
+                "rtspPath": "rtsp://admin:abcd1234@192.168.1.122:554/h264/ch1/main/av_stream",
+                "width": 1920,
+                "height": 1080
+            },
+ {
+                "camID": "67",
+                "rtspPath": "rtsp://admin:abcd1234@192.168.1.131:554/h264/ch1/main/av_stream",
+                "width": 1920,
+                "height": 1080
+            },
+ {
+                "camID": "66",
+                "rtspPath": "rtsp://admin:abcd1234@192.168.1.130:554/h264/ch1/main/av_stream",
+                "width": 1920,
+                "height": 1080
+            },
+ {
+                "camID": "72",
+                "rtspPath": "rtsp://admin:abcd1234@192.168.1.136:554/h264/ch1/main/av_stream",
+                "width": 1920,
+                "height": 1080
+            }
+	       
+ ]
+    },
+    "LabelConfig": {
+        "labelList": [
+            "person",
+            "switch",
+            "collector",
+            "subway",
+            "manual_rod"
+        ]
+    }
+}
