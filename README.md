@@ -1,6 +1,7 @@
 ## 程序适用
 
 T506盒子,如需在T600上使用，替换lib目录下的libjetson-utils.so
+具体为：将  change t600  目录下的文件覆盖到lib目录
 
 
 
